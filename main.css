@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(114, 68, 158);
+    color: white; 
+}
+.conteiner{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.site-header{
+    align-items: center;
+    justify-content: center;
+}
+.number{
+    width: 230px;
+}
+.wrapper{
+    width: 230px;
+    height: 50px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.wrapper > input[type="range"]{
+    position: absolute;
+    bottom: 0;
+}
+
+ .range-num {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
